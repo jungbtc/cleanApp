@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0000000000000000000101 /* CleanDropApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000001 /* CleanDropApp.swift */; };
+		CD0000000000000000000102 /* MatchConfidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000002 /* MatchConfidence.swift */; };
+		CD0000000000000000000103 /* ScanCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000003 /* ScanCategory.swift */; };
+		CD0000000000000000000104 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000004 /* AppInfo.swift */; };
+		CD0000000000000000000105 /* CandidateFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000005 /* CandidateFile.swift */; };
+		CD0000000000000000000106 /* ScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000006 /* ScanResult.swift */; };
+		CD0000000000000000000107 /* SizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000007 /* SizeCalculator.swift */; };
+		CD0000000000000000000108 /* AppInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000008 /* AppInspector.swift */; };
+		CD0000000000000000000109 /* FileMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000009 /* FileMatcher.swift */; };
+		CD0000000000000000000110 /* PermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000010 /* PermissionService.swift */; };
+		CD0000000000000000000111 /* RelatedFileScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000011 /* RelatedFileScanner.swift */; };
+		CD0000000000000000000112 /* TrashService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000012 /* TrashService.swift */; };
+		CD0000000000000000000113 /* DropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000013 /* DropViewModel.swift */; };
+		CD0000000000000000000114 /* ScanResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000014 /* ScanResultsViewModel.swift */; };
+		CD0000000000000000000115 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000015 /* ContentView.swift */; };
+		CD0000000000000000000116 /* DropZoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000016 /* DropZoneView.swift */; };
+		CD0000000000000000000117 /* ScanResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000017 /* ScanResultsView.swift */; };
+		CD0000000000000000000118 /* CategorySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000018 /* CategorySectionView.swift */; };
+		CD0000000000000000000119 /* CandidateFileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000019 /* CandidateFileRow.swift */; };
+		CD0000000000000000000120 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000020 /* ConfirmationDialogView.swift */; };
+		CD0000000000000000000121 /* CompletionReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000021 /* CompletionReportView.swift */; };
+		CD0000000000000000000122 /* CleanDrop.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000025 /* CleanDrop.icns */; };
+		CD0000000000000000000201 /* AppInspectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000022 /* AppInspectorTests.swift */; };
+		CD0000000000000000000202 /* CandidateSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000023 /* CandidateSelectionTests.swift */; };
+		CD0000000000000000000203 /* FileMatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0000000000000000000024 /* FileMatcherTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD0000000000000000000301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0000000000000000000401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0000000000000000000501;
+			remoteInfo = CleanDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD0000000000000000000001 /* CleanDropApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanDropApp.swift; sourceTree = "<group>"; };
+		CD0000000000000000000002 /* MatchConfidence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchConfidence.swift; sourceTree = "<group>"; };
+		CD0000000000000000000003 /* ScanCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCategory.swift; sourceTree = "<group>"; };
+		CD0000000000000000000004 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		CD0000000000000000000005 /* CandidateFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateFile.swift; sourceTree = "<group>"; };
+		CD0000000000000000000006 /* ScanResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResult.swift; sourceTree = "<group>"; };
+		CD0000000000000000000007 /* SizeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCalculator.swift; sourceTree = "<group>"; };
+		CD0000000000000000000008 /* AppInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInspector.swift; sourceTree = "<group>"; };
+		CD0000000000000000000009 /* FileMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMatcher.swift; sourceTree = "<group>"; };
+		CD0000000000000000000010 /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionService.swift; sourceTree = "<group>"; };
+		CD0000000000000000000011 /* RelatedFileScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedFileScanner.swift; sourceTree = "<group>"; };
+		CD0000000000000000000012 /* TrashService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashService.swift; sourceTree = "<group>"; };
+		CD0000000000000000000013 /* DropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropViewModel.swift; sourceTree = "<group>"; };
+		CD0000000000000000000014 /* ScanResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultsViewModel.swift; sourceTree = "<group>"; };
+		CD0000000000000000000015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD0000000000000000000016 /* DropZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropZoneView.swift; sourceTree = "<group>"; };
+		CD0000000000000000000017 /* ScanResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultsView.swift; sourceTree = "<group>"; };
+		CD0000000000000000000018 /* CategorySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySectionView.swift; sourceTree = "<group>"; };
+		CD0000000000000000000019 /* CandidateFileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateFileRow.swift; sourceTree = "<group>"; };
+		CD0000000000000000000020 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
+		CD0000000000000000000021 /* CompletionReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionReportView.swift; sourceTree = "<group>"; };
+		CD0000000000000000000022 /* AppInspectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInspectorTests.swift; sourceTree = "<group>"; };
+		CD0000000000000000000023 /* CandidateSelectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateSelectionTests.swift; sourceTree = "<group>"; };
+		CD0000000000000000000024 /* FileMatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileMatcherTests.swift; sourceTree = "<group>"; };
+		CD0000000000000000000025 /* CleanDrop.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CleanDrop.icns; sourceTree = "<group>"; };
+		CD0000000000000000000601 /* CleanDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0000000000000000000602 /* CleanDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0000000000000000000701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0000000000000000000702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0000000000000000000801 = {
+			isa = PBXGroup;
+			children = (
+				CD0000000000000000000802 /* CleanDrop */,
+				CD0000000000000000000807 /* CleanDropTests */,
+				CD0000000000000000000808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0000000000000000000802 /* CleanDrop */ = {
+			isa = PBXGroup;
+			children = (
+				CD0000000000000000000001 /* CleanDropApp.swift */,
+				CD0000000000000000000803 /* Models */,
+				CD0000000000000000000804 /* Services */,
+				CD0000000000000000000805 /* ViewModels */,
+				CD0000000000000000000806 /* Views */,
+				CD0000000000000000000809 /* Resources */,
+			);
+			path = CleanDrop;
+			sourceTree = "<group>";
+		};
+		CD0000000000000000000803 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD0000000000000000000002 /* MatchConfidence.swift */,
+				CD0000000000000000000003 /* ScanCategory.swift */,
+				CD0000000000000000000004 /* AppInfo.swift */,
+				CD0000000000000000000005 /* CandidateFile.swift */,
+				CD0000000000000000000006 /* ScanResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD0000000000000000000804 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD0000000000000000000007 /* SizeCalculator.swift */,
+				CD0000000000000000000008 /* AppInspector.swift */,
+				CD0000000000000000000009 /* FileMatcher.swift */,
+				CD0000000000000000000010 /* PermissionService.swift */,
+				CD0000000000000000000011 /* RelatedFileScanner.swift */,
+				CD0000000000000000000012 /* TrashService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CD0000000000000000000805 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CD0000000000000000000013 /* DropViewModel.swift */,
+				CD0000000000000000000014 /* ScanResultsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CD0000000000000000000806 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD0000000000000000000015 /* ContentView.swift */,
+				CD0000000000000000000016 /* DropZoneView.swift */,
+				CD0000000000000000000017 /* ScanResultsView.swift */,
+				CD0000000000000000000018 /* CategorySectionView.swift */,
+				CD0000000000000000000019 /* CandidateFileRow.swift */,
+				CD0000000000000000000020 /* ConfirmationDialogView.swift */,
+				CD0000000000000000000021 /* CompletionReportView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD0000000000000000000807 /* CleanDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0000000000000000000022 /* AppInspectorTests.swift */,
+				CD0000000000000000000023 /* CandidateSelectionTests.swift */,
+				CD0000000000000000000024 /* FileMatcherTests.swift */,
+			);
+			path = CleanDropTests;
+			sourceTree = "<group>";
+		};
+		CD0000000000000000000809 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD0000000000000000000025 /* CleanDrop.icns */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD0000000000000000000808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0000000000000000000601 /* CleanDrop.app */,
+				CD0000000000000000000602 /* CleanDropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0000000000000000000501 /* CleanDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0000000000000000000902 /* Build configuration list for PBXNativeTarget "CleanDrop" */;
+			buildPhases = (
+				CD0000000000000000001001 /* Sources */,
+				CD0000000000000000000701 /* Frameworks */,
+				CD0000000000000000001101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanDrop;
+			productName = CleanDrop;
+			productReference = CD0000000000000000000601 /* CleanDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD0000000000000000000502 /* CleanDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0000000000000000000903 /* Build configuration list for PBXNativeTarget "CleanDropTests" */;
+			buildPhases = (
+				CD0000000000000000001002 /* Sources */,
+				CD0000000000000000000702 /* Frameworks */,
+				CD0000000000000000001102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0000000000000000000302 /* PBXTargetDependency */,
+			);
+			name = CleanDropTests;
+			productName = CleanDropTests;
+			productReference = CD0000000000000000000602 /* CleanDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0000000000000000000401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CD0000000000000000000501 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					CD0000000000000000000502 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CD0000000000000000000501;
+					};
+				};
+			};
+			buildConfigurationList = CD0000000000000000000901 /* Build configuration list for PBXProject "CleanDrop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD0000000000000000000801;
+			productRefGroup = CD0000000000000000000808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0000000000000000000501 /* CleanDrop */,
+				CD0000000000000000000502 /* CleanDropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0000000000000000001101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0000000000000000000122 /* CleanDrop.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0000000000000000001102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0000000000000000001001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0000000000000000000101 /* CleanDropApp.swift in Sources */,
+				CD0000000000000000000102 /* MatchConfidence.swift in Sources */,
+				CD0000000000000000000103 /* ScanCategory.swift in Sources */,
+				CD0000000000000000000104 /* AppInfo.swift in Sources */,
+				CD0000000000000000000105 /* CandidateFile.swift in Sources */,
+				CD0000000000000000000106 /* ScanResult.swift in Sources */,
+				CD0000000000000000000107 /* SizeCalculator.swift in Sources */,
+				CD0000000000000000000108 /* AppInspector.swift in Sources */,
+				CD0000000000000000000109 /* FileMatcher.swift in Sources */,
+				CD0000000000000000000110 /* PermissionService.swift in Sources */,
+				CD0000000000000000000111 /* RelatedFileScanner.swift in Sources */,
+				CD0000000000000000000112 /* TrashService.swift in Sources */,
+				CD0000000000000000000113 /* DropViewModel.swift in Sources */,
+				CD0000000000000000000114 /* ScanResultsViewModel.swift in Sources */,
+				CD0000000000000000000115 /* ContentView.swift in Sources */,
+				CD0000000000000000000116 /* DropZoneView.swift in Sources */,
+				CD0000000000000000000117 /* ScanResultsView.swift in Sources */,
+				CD0000000000000000000118 /* CategorySectionView.swift in Sources */,
+				CD0000000000000000000119 /* CandidateFileRow.swift in Sources */,
+				CD0000000000000000000120 /* ConfirmationDialogView.swift in Sources */,
+				CD0000000000000000000121 /* CompletionReportView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0000000000000000001002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0000000000000000000201 /* AppInspectorTests.swift in Sources */,
+				CD0000000000000000000202 /* CandidateSelectionTests.swift in Sources */,
+				CD0000000000000000000203 /* FileMatcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD0000000000000000000302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0000000000000000000501 /* CleanDrop */;
+			targetProxy = CD0000000000000000000301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD0000000000000000001201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD0000000000000000001202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CD0000000000000000001203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleIconFile = CleanDrop;
+				INFOPLIST_KEY_CFBundleDisplayName = CleanDrop;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.CleanDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD0000000000000000001204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleIconFile = CleanDrop;
+				INFOPLIST_KEY_CFBundleDisplayName = CleanDrop;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.CleanDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CD0000000000000000001205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.CleanDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanDrop.app/Contents/MacOS/CleanDrop";
+			};
+			name = Debug;
+		};
+		CD0000000000000000001206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.CleanDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanDrop.app/Contents/MacOS/CleanDrop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0000000000000000000901 /* Build configuration list for PBXProject "CleanDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0000000000000000001201 /* Debug */,
+				CD0000000000000000001202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0000000000000000000902 /* Build configuration list for PBXNativeTarget "CleanDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0000000000000000001203 /* Debug */,
+				CD0000000000000000001204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0000000000000000000903 /* Build configuration list for PBXNativeTarget "CleanDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0000000000000000001205 /* Debug */,
+				CD0000000000000000001206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0000000000000000000401 /* Project object */;
+}
